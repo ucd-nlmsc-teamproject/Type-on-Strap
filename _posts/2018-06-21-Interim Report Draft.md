@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Interim Report Draft
+thumbnail: "assets/img/thumbnails/relocation_map.jpg"
 ---
 The theme for this year's project is Data for Social Good. 
 Our project makes it more easier for users to get information and resources they need in terms of job search and accommodation. 
@@ -10,22 +11,6 @@ Our draft interim report is detailed in this blog post.
 #  Interim Report
 
 #                  Team Name: JobMap
-
-#
-
-#
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
