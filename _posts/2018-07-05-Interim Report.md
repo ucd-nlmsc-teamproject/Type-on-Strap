@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Interim Report Draft
+title: Interim Report
 thumbnail: "assets/img/thumbnails/Untitled.png"
 ---
 
