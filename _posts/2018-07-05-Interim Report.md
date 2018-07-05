@@ -1,3 +1,11 @@
+---
+layout: post
+title: Interim Report Draft
+thumbnail: "assets/img/thumbnails/Untitled.png"
+---
+The theme for this year's project is Data for Social Good. 
+Our project provides a visualisation of agregated data from multiple sources to make it easier to relocate to areas of Ireland where there are available jobs. Our draft interim report is detailed in this blog post.
+
 #  Interim Report
 
 #                  Team Name: JobMap
