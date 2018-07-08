@@ -16,7 +16,7 @@ Our project provides a visualisation of agregated data from multiple sources to 
 
 ## User Scenario: The Characters
 
-Who is your target user?
+###Who is your target user?
 
 The theme for this year&#39;s project is Data for Social Good. Our makes it more easier for users to get information and resources they need in terms of job search and accommodation. Our target user is basically everyone who is looking for a job and planning on starting a new career or exploring a new career option in various geographic regions in Ireland or even the place they currently are residing in. Since most of us faced have faced similar situations, our own experience has helped us in developing the concept of a website that displays the visualized information of aggregated jobs, housing on the same screen. We believe that this project can help with &quot;social good&quot; by making relocation easier to locations around Ireland..
 
