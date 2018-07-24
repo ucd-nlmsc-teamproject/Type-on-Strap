@@ -4,16 +4,16 @@ JobMap Team
 
 
 
-## What Questions Are You Asking?
+### What Questions Are You Asking?
 
 
-Overview
+#### Overview
 
 Our application aggregates job listings and housing data and presents it to users in a visualized manner. Where previously, users would have had to visit multiple sites for jobs and accommodation; look up locations; correlate these on a map; and then figure out distances, our application does that for them.
 
 We are taking two approaches for evaluation. The first approach evaluates the performance of the system based on two metrics – time (taken to carry out tasks); and accuracy (of the information returned). The second approach is more subjective. Here, we elicit user feedback on the system to give information on ease of use and user experience.
 
-Questions
+#### Questions
 
 Essentially, our evaluation is based on the following three questions. These questions will help establish whether our system has met the objectives set out at the outset of the project.
 
@@ -21,7 +21,7 @@ Essentially, our evaluation is based on the following three questions. These que
 2. Does the information provided by the application accurate
 3. Is the application easier to use than the current process?
 
-Scenarios
+#### Scenarios
 
 The experiments we have designed address the above three questions. We have a separate experiment to address each question.
 
@@ -31,15 +31,12 @@ We have also base the evaluation on a number of real user scenarios described to
 
 - You are based in Kilkenny where you are working in a job not related to your degree. Yu are planning to move to Dublin. You know where you will be staying as you will have a house share with friends.You would like to live within 20km of work.
 
-1. 2Experimental Methods
+## Experimental Methods
 
 Describe each experiment you are proposing under the following headings.
 
-1
-  1. 1Experiment 1
-    1. 1.1Overview (200 words)
-
-**What will happen in your experiment? What type of experiment is this (a desk experiment, a user survey, a controlled experiment, a focus group, a field test, …)? What is your overall experimental design? What are the baselines you will compare against? What are the evaluation metrics you will use? …**
+### Experiment 1
+#### Overview 
 
 The first experiment is a controlled experiment to
 
@@ -52,11 +49,7 @@ The first group will be used to establish the baseline for the time measurement.
 
 For the accuracy measurement, there are two considerations - job locations and accommodation locations. For accommodation, the mapped location in myhome.ie will be used as the baseline. For the job locations, there is no equivalent baseline. Instead, the validation will be against a manual Google maps search for the location.
 
-1.
-  1.
-    1. 1.2Data Collection (100 words)
-
-**What data will you collect during the experiment and why? Will there be a mix between subjective (qualitative) and objective (quantitative) measurements? How does the data you will collect relate directly to the questions you are asking? …**
+#### Data Collection
 
 Based on the experimental design the data that will be collected is listed below.
 
@@ -75,11 +68,7 @@ This information directly relates to the first two evaluation questions _(&quot;
 
  and helps establish whether the system does improve on the time taken for carrying out searches.
 
-1.
-  1.
-    1. 1.3Selected Subjects (100 words)
-
-**Who will you use as subjects in your experiment?
+#### Selected Subjects 
 
 For this experiment, we will have six users. We will randomly assign these users into two groups of three
 
@@ -89,7 +78,7 @@ Subjects will sourced from the set of colleagues and their contacts who are curr
 
 
 
-#### Data Analysis (200 words)
+#### Data Analysis 
 
 The data obtained from the first evaluation will be analysed on 2 metrics of time and accuracy and the second evaluation approach would help us in evaluating the user satisfaction with results achieved and experience of using the system.
 
