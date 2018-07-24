@@ -84,14 +84,14 @@ The data obtained from the first evaluation will be analysed on 2 metrics of tim
 
 This analysis would help us in identifying a significant difference between the two user group sets in the time taken to complete the tasks and the level of accuracy they obtained in their results.
 
-#### Practical Setup (200 words)
+#### Practical Setup
 
 Our experiment will involve a member of the project team sitting with a subject and recording the time taken. The subjects would first be divided into two user group sets, where one group set would be following the general approach of searching information and the other group set would be using our system. The questionnaire will be an online Google form for ease of data  distribution.. The information gathered from the user sets would be used for analyzing the time taken by each user group and the level of accuracy with which they would be able to get the information.
 
 Participants would be asked to search for information based on the scenarios given and record them in a google form. After the first approach of evaluation is performed the user group set who used our application would be given a feedback form, online where they need to share their experience of using our system.
 
-## Experiment 2
-#### Overview (200 words)
+### Experiment 2
+#### Overview
 
 The objective of this experiment is to compare the ease of use of the system with the previous manual process.
 
@@ -115,7 +115,7 @@ Users are asked to go through the scenarios where contexts are provided which gu
 
 This experiment involves natural research of the product use to understand behavior or attitudes as close to reality as possible but also includes scripted parts that is quantitative in nature. The questionnaire acts like an evaluation test extracting metrics based on the user&#39;s answer that falls on a scale between completely agreeing to completely disagreeing. This hybrid research methods use a creative form of product usage to meet the user&#39;s goals helping us understand ways to improve the experience.
 
-### Data Collection (100 words)
+#### Data Collection
 
 The data we collect will be subjective and based on user perception. The data directly relates to the third question.
 
