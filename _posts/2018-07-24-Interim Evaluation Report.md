@@ -1,10 +1,11 @@
-## User Evaluation Report Template
+## User Evaluation Report
 
-JobMap
+JobMap Team
 
-1. 1What Questions Are You Asking? (300 words)
 
-**Explain the questions you are asking in your experiment(s). Why are these the important questions to ask? What will they tell you about your system?**
+
+## What Questions Are You Asking?
+
 
 Overview
 
@@ -78,7 +79,7 @@ This information directly relates to the first two evaluation questions _(&quot;
   1.
     1. 1.3Selected Subjects (100 words)
 
-**Who will you use as subjects in your experiment. Why are these a representative sample? How will you source these subjects? How many subjects do you need? …**
+**Who will you use as subjects in your experiment?
 
 For this experiment, we will have six users. We will randomly assign these users into two groups of three
 
@@ -88,33 +89,20 @@ Subjects will sourced from the set of colleagues and their contacts who are curr
 
 
 
-1.
-  1.
-    1. 1.4Data Analysis (200 words)
-
-**How will you analyse the data you collect during the experiment? How will this analysis answer the question you originally proposed? …**
+#### Data Analysis (200 words)
 
 The data obtained from the first evaluation will be analysed on 2 metrics of time and accuracy and the second evaluation approach would help us in evaluating the user satisfaction with results achieved and experience of using the system.
 
 This analysis would help us in identifying a significant difference between the two user group sets in the time taken to complete the tasks and the level of accuracy they obtained in their results.
 
-1.
-  1.
-    1. 1.5Practical Setup (200 words)
-
-**In practical terms how will you run your experiment? Will it be online or offline? What instructions will participants be given? What type of room/environment will the experiment be in? Will questions/surveys be displayed on-screen or on**
-
-**printed paper? …**
+#### Practical Setup (200 words)
 
 Our experiment will involve a member of the project team sitting with a subject and recording the time taken. The subjects would first be divided into two user group sets, where one group set would be following the general approach of searching information and the other group set would be using our system. The questionnaire will be an online Google form for ease of data  distribution.. The information gathered from the user sets would be used for analyzing the time taken by each user group and the level of accuracy with which they would be able to get the information.
 
 Participants would be asked to search for information based on the scenarios given and record them in a google form. After the first approach of evaluation is performed the user group set who used our application would be given a feedback form, online where they need to share their experience of using our system.
 
-1.
-  1. 2Experiment 2
-    1. 1.1Overview (200 words)
-
-**What will happen in your experiment? What type of experiment is this (a desk experiment, a user survey, a controlled experiment, a focus group, a field test, …)? What is your overall experimental design? What are the baselines you will compare against? What are the evaluation metrics you will use? …**
+## Experiment 2
+#### Overview (200 words)
 
 The objective of this experiment is to compare the ease of use of the system with the previous manual process.
 
@@ -138,11 +126,7 @@ Users are asked to go through the scenarios where contexts are provided which gu
 
 This experiment involves natural research of the product use to understand behavior or attitudes as close to reality as possible but also includes scripted parts that is quantitative in nature. The questionnaire acts like an evaluation test extracting metrics based on the user&#39;s answer that falls on a scale between completely agreeing to completely disagreeing. This hybrid research methods use a creative form of product usage to meet the user&#39;s goals helping us understand ways to improve the experience.
 
-1.
-  1.
-    1. 1.2Data Collection (100 words)
-
-**What data will you collect during the experiment and why? Will there be a mix between subjective (qualitative) and objective (quantitative) measurements? How does the data you will collect relate directly to the questions you are asking? …**
+### Data Collection (100 words)
 
 The data we collect will be subjective and based on user perception. The data directly relates to the third question.
 
@@ -173,43 +157,21 @@ Users will be asked to rate the questions on a scale of 1 - 7:
 7= Completely Disagree
 
 
-
-1.
-  1.
-    1. 1.3Selected Subjects (100 words)
-
-**Who will you use as subjects in your experiment. Why are these a representative sample? How will you source these subjects? How many subjects do you need? …**
+#### Selected Subjects
 
 Subjects for the questionnaire will be the same user base that carried out the previous time/accuracy evaluation.
 
-1.
-  1.
-    1. 1.4Data Analysis (200 words)
+#### Data Analysis 
 
-**How will you analyse the data you collect during the experiment? How will this analysis answer the question you originally proposed? …**
 
 This analysis would help us with how well our system serves the purpose for which it was designed for, and how happy are the users in using in their day basis. We have taken a scale of 1 -7 on which the users would be rating the system they have used. Based on the answers we  get from users we can analyse how well would our system serves the purpose and how happy are the users in using the system.
 
-1.
-  1.
-    1. 1.5Practical Setup (200 words)
-
-**In practical terms how will you run your experiment? Will it be online or offline? What instructions will participants be given? What type of room/environment will the experiment be in? Will questions/surveys be displayed on-screen or on**
-
-**printed paper? …**
+#### Practical Setup
 
 The survey will be an online experiment. The users will be the same user base that evaluated the performance of the system. Users will be required to complete the survey immediately following completion of the previous experiment in order to accurately capture their perceptions.
 
-1. 3Conclusions (200 words)
+### Conclusions
 
-**What can you conclude after running the experiment(s) described (e.g., will you learn anything useful about the quality of your solution)? what challenges do you expect in running the experiment(s)?**
-
-#
-[ANNOTATION:
-
-BY &#39;Nana Osei&#39;
-ON &#39;2018-07-22T19:42:03&#39;
-NOTE: &#39;This needs to be rewritten&#39;]
 It takes an experiential approach, putting experience before functionality and leaving behind oversimplified calls for ease, efficiency, and automation or shallow beautification (Hassenzahl, 2010). Instead, we aim to learn how to design an experiment to understand the user&#39;s perspective and what it needs to make technology more meaningful.
 
 Challenges expected revolves mostly around people&#39;s attitude towards navigation. People are different, their goals circle around their situations/context. Being able to measure and understand how they would get around navigating the elements and using the features to solve the challenge of finding job and accommodation no matter what their background story is, is a challenge in itself. People try to achieve the tasks similarly but approach it with different perspectives. To be able to understand these user flows and allow for a wider contextual scene to accommodate all kinds of situations while designing the experiment is the biggest challenge.
