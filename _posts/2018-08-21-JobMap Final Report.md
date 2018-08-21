@@ -478,3 +478,98 @@ To address this we included a preprocessing step to compare the job lo
 
 
 
+
+
+
+
+
+
+## Conclusion: The Reviews
+
+### Project Management Strategy
+
+Our approach to project management changed over the course of the project. The need for a clear project management strategy and setting out timelines and milestones has been a key lesson learned for the team.
+
+For the first half of the semester, we split into two teams focussing separately on the frontend and backend technologies. Tasks were assigned to team members and we had a daily skype call and weekly team meetings. It became clear midway through the semester that this approach was not working effectively. In particular, we noted that the team had more skills capability with the backend technology set and so this side had progressed much more quickly than the frontend. We also noted that our approach had not allowed capacity and clear responsibilities for additional tasks such as preparation for interim presentations, demos and reports.
+
+For the second half of the project, adopt an agile methodology. We revisited our project vision, documented the required features as well as the success criteria. As a team, we developed the application by delivering incremental features. This approach improved the team performance as we were able to focus better on deliverables and address problems as a team. Another step we took was to allocate ownership of supporting tasks (documentation, reports, presentations) to specific team members. This step improved the coherence of our documentation.
+
+At a high level, we identified the following high level deliverables. After each deliverable, testing was carried out to minimise the risk of hidden issues at the end. We then signed off on the deliverable and moved on to the next.
+
+-         Build infrastructure
+-         Develop Jobs heat map
+-         Integrate with interactive map (with geocoded place markers)
+-         Integrate housing data into interactive map
+-         Graph historical data
+
+
+
+For the second half of the semester, we also set out the following outline schedule. We anticipated that some tasks could be progressed in parallel but we have outlined this timeline to allow for contingency. We were able to meet the schedule by scheduling lab sessions where we worked on the code as a team.
+
+### Tools
+
+Considering the requirements of this project and within given time-constraint we chose to have a working project by making use of best of the tools available for managing our workflow and to have everything in loop within team members. The tools and technologies that we have used in our project development are outlined below.
+
+ ![](data:image/*;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAABmJLR0QA/wD/AP+gvaeTAAAYmElEQVR4nO3de5hkZX0n8O/vVPX0TM+9u+qc6poWZ3RAoHFBLlFIVkxAiDcSMUpUNOgGVOBZvMVL3I1u9ElM4NkYl8QowZXdrDyIgiAXgwIxiKCCKwkNA0xwHHq6z6WmZ3qYa1fV+9s/psOOc+npS533PXXO9/MPPNNV5/ubqjm/Ppf3vC9ARERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERJRp4roA6rx6vV7Rqam1KrJWPG9IVfsBDEB1QEQGAECBXoj0AQBUdwkwtf9/dStEtgLYqiJbxZgtorpJFi3aNDY21nD2l6JUsAF0sXq93qfN5ukGOBkiLxfgZAAnAliWUuTzAJ5U4DGo/qsHPCY9PY+MjY3tTimPUsYG0EX6+/tX9JbL50L11QqcBZFTAPQ4LqsJ1Z8L8COI/GBfq3XvxMTEDsc10SyxAWRcvVJ5WVvkzeJ5vw3Vs+B+hz+aJlQfBPDdkuqtWxqNp10XREfGBpBBvu+/VEQu8lTfpvsP67uWAj+H6jfgeTdFUfSs63roV7EBZMT69et7d05OXiAilylwDvL43Yg8KsBXpFT6B143yIb8/SPrMpVKpd5TKl2pqpcBGHBdjyVbReQrzXb72kajMea6mCJjA3AkCIKTRPWjAN4OYJHrehyZAnCjilwTRdHjrospIjYAy+oDA8ebUumPAbwDQMl1PRmhUL3TiPyXOI4fc11MkbABWLKmv3+oXS5/DsDF4I5/JG0A/6fUan1qy8TEqOtiioANIGVDQ0NLWvv2/WeIfArActf1dIndEPkfbWM+lyTJTtfF5BkbQIqCILhAjLkWIi9yXUuX2qwiV0ZR9B3XheQVG0AKfN8PPOBqAO9yXUsuqN5RNub9o1u3bnFdSt6wAXRYEAS/L6p/A6DfdS05M6Eil0dRdJPrQvKEDaBD+vv7V/SUy1cLcJnrWnJN5OZFe/e+b/Pk5DbXpeQBG0AH1Gq1X4MxNwFY67qWgnhWjHnbeKPxqOtCuh1vRy1QzfffDdVvAqi6rqVAVkPk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)
+
+1) **Github** : We use github to store all code and blogs with versions of each development that we made.
+
+5) **Skype** : We use Skype for team calls. We have a daily call with the entire team for 10 minute call and a longer 1 hour call twice a week.
+
+2) **Trello** : We use Trello to manage team tasks. This forms the basis of our daily call.
+
+
+
+3) **Slack** : Is used primarily used as a communication platform within the team having integrated to other tools like Google Drive, Trello, Skype, Github.
+
+4) **Google Drive** : A file storage system that comes with gmail. Google drive is the central repository of all our documents, files and the resource maintainer.This also allows us to have it integrated to slack so that any updates done can be notified.
+
+### Challenges and Lessons Learned
+
+#### Challenges
+
+The challenges we faced as a team were a mix of technical and non-technical. In our review discussions since the conclusion of the project, the team agreed that some of our biggest challenges and lessons learned were non-technical such as the need for effective project management.
+
+***Non-technical***
+
+**Project management** - Although we assigned project manager roles, we did not initially adopt a project management strategy. We instead had the project managers simply acting as meeting facilitators and monitoring progress at a basic high level. Adopting elements of an agile methodology helped overcome this challenge and was crucial to delivering the project.
+
+**Skill sets** - All of the members in the team have a solid foundation in backend technologies but lack experience with the front-end development. As front-end is a crucial component of the system there was a sharp curve to upskill quickly. Focussing on delivering features rather than the technologies helped address this challenge as we were more able to focus on upskilling as a team.
+
+**Time constraints** - As we have a mix of full-time and part-time students, scheduling ad-hoc meetings was very challenging. Face-to-face meetings were also difficult as the team living in various locations. We initially scheduled call in the evenings and arranged weekend face-to-face meetings to work around this. We later scheduled additional face-to-face meetings so long as at least two team members were available.
+
+***Technical***
+
+**API Availability** - The greatest challenge at the outset of the project was getting access to APIs, in particular for property sites. We found that although a number of sites had APIs, they were not available for public access. In some cases, there were lengthy delays before the sites confirmed we would not be allowed an API key. We got around this issue by reviewing terms and conditions for the sites to find a site that allowed a copy of the data to be downloaded. We were then able to scrape this site.
+
+
+
+#### Lessons Learned
+
+The team has learned some important lessons that will be of benefit to future projects:
+
+**Project management** - This project has highlighted to us the need for having a project methodology and for effective project management - in particular defining deliverables; timelines; and roles and responsibilities.
+
+**Developing a minimum viable product (MVP)** - For our team this was a new concept but a very important lesson. Having the MVP to develop in a limited timeframe was very important in highlighting that our approach for the first half of the semester was not working. Without producing an MVP the overall project would have had a very high risk of failure.
+
+**More focus on features (than technology)** - Another lesson learned is the need to focus on features to be delivered for a solution rather than the technologies delivering the solution. A focus on the features results in more targeted research and development to meet a specific deliverable, resulting in better time management.
+
+**Face to face meetings** - A final lesson learned has been the value of face to face meetings. The key lesson here is that even if only a part of the team is able to meet in prso, this has value and can speed up the progress of tasks and the impact of calls.
+
+#### Key Contributions and Future Enhancements
+
+Our project vision was to build an application that aggregated information on jobs and accommodation and presented this as visual information to the user in a single interface. We developed a number of user scenarios and set out three key measures of success:
+
+1. Does the application provide a user with information quicker than their current manual process
+2. Does the information provided by the application accurate
+3. Is the application easier to use than the current process?
+
+Overall, we believe our application has met the objectives set out at the beginning of the project. We have been able to build an application that meets our user scenarios and measured as a success based on our success measures.
+
+In the future, we envisage the following additional features to extend the capability of the solution:
+
+**Analytics** - The extension we envisage with the highest impact would be to examine patterns and trends in our data. This could be trends in data patterns (e.g. months with the most jobs;  and job growth at a very low level such as job title) or at the user level (such as the distance most users prefer to live from work). There could be some important insights to be made into such data as we are collecting data from different sources than existing applications.
+
+**Landmark filters** - Adding additional landmarks to the maps would increase the impact of the application for users planning a relocation. As an example, we could allow users to filter for schools within a distance of a house.
+
+**Additional web sites** - Another possible extension would be to include data from additional sites. As an example, we compared jobs.ie to irishjobs.com and noted that some jobs were only advertised on one of the sites. Aggregating from more sites would therefore add value.
