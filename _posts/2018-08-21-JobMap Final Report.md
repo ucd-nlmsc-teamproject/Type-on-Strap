@@ -707,3 +707,7 @@ In the future, we envisage the following additional features to extend the capab
 **Landmark filters** - Adding additional landmarks to the maps would increase the impact of the application for users planning a relocation. As an example, we could allow users to filter for schools within a distance of a house.
 
 **Additional web sites** - Another possible extension would be to include data from additional sites. As an example, we compared jobs.ie to irishjobs.com and noted that some jobs were only advertised on one of the sites. Aggregating from more sites would therefore add value.
+
+## Project Demonstration
+To view a demonstration of the JobMap application, please use the link below. The video opens in youtube. 
+[JobMap Application Demo](https://youtu.be/VtRNiv4G_iE)
