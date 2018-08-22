@@ -477,10 +477,143 @@ To address this we included a preprocessing step to compare the job lo
 
 
 
+## User Evaluation: The Results
+
+### Evaluated Components
+
+Our application aggregates job listings and housing data and presents it to users in a visualized manner. Where previously, users would have had to visit multiple sites for jobs and accommodation; look up locations; correlate these on a map; and then figure out distances, our application does that for them.
+
+We are taking two approaches for evaluation. The first approach evaluates the performance of the system based on two metrics – time (taken to carry out tasks); and accuracy (of the information returned). The second approach is more subjective. Here, we elicit user feedback on the system to give information on ease of use and user experience.
+
+Essentially, our evaluation is based on the following three questions. These questions will help establish whether our system has met the objectives set out at the outset of the project.
+
+1. Does the application provide a user with information quicker than their current manual process
+2. Does the information provided by the application accurate
+3. Is the application easier to use than the current process?
+
+### Initial Evaluation
+
+We initially designed a single experiment. This was a controlled experiment with users assigned a specific set of tasks to complete. This approach was taken to ensure a greater level of consistency for comparing the results.
+
+In designing the tasks to be executed by users for the evaluation we took the straw man approach. With this approach, a simple but realistic set of tasks were set out to retrieve information that users might be interested in. This approach was taken because we have no existing &quot;incumbent&quot; application against which we could test.
+
+The experiment involved members of the project team sitting with a subject while they carried out a number of assigned tasks. The subject then input the results of their evaluation into a Google form for submission.
+
+#### Subjects
+
+For this experiment, we had twenty users. The users were selected from friends and colleagues with different ages and technological backgrounds. The users were separated into two groups of ten. Each group was assigned the same set of tasks. One group was required to complete the tasks using a manual process of checking [www.myhome.ie](http://www.myhome.ie) and [www.jobs.ie](http://www.jobs.ie) for the required information. The second group was required to complete the same tasks using the JobMap application.
+
+#### Metrics
+
+The metrics we collected were for time and accuracy. We also got users who evaluated JobMap to complete a short survey for feedback on their experience using the application.
+
+Subjects were each assigned a county and an industry. The industries and counties were selected to have a mix of dense and sparse data but importantly to have some data. The actual assignment of the selected industries and counties to users was done randomly.
+
+**Time**
+
+For the time measurement, the time taken to carry out a number of searches was recorded. Users were requested to each find 5 jobs in their allocated county for their allocated industry. For each job location identified, they then had to find accomodation - one in a 10km radius and another in a 20km radius.
+
+**Accuracy**
+
+Our first approach was to measure the accuracy of the geocoded locations recorded by the evaluators. We did this by manually checking against the locations in Google maps.
+
+The accuracy metric was only relevant for users of JobMap. Evaluators of the manual process did not have to record this. The check was done by the team members using the data recorded by the evaluators.
+
+#### Data Collection
+
+Based on the experimental design the data below was collected. We opted to collect minimal personal information focussing only on relevant data.
+
+1. Name of evaluator
+2. Start time
+3. Record the time taken to:
+  1. Locate 5 jobs related to the allocated category in each allocated county
+  2. Locate 1 house/apartment to let in a 10km radius of each job
+  3. Locate 1 house/apartment to let in a 20km radius of each job
+4. Accuracy (For JobMap users only and done by the team members)
+  1. For each of the jobs, note the distance to the associated houses reported by the application
+  2.  For each of the jobs, note the distance to the associated houses using Google maps
+5. End time
+
+### Follow-up Experiment - Accuracy
+
+Following feedback on our interim evaluation report and on reflection, it was apparent that our original accuracy measure was not of significant value. We instead designed a new experiment to measure accuracy. This involved measuring the distance between jobs and housing as our metric. With this approach, we evaluated the accuracy of both our geocoded addresses and the distance formula used.
+
+As the JobMap code already measured the distance between jobs and accommodation in the background, we could compare this against distances in Google maps (with the Google maps distance used as a baseline).
+
+The formula used by JobMap is:
+
+sqrt(x \* x + y \* y)
+
+where x = 69.1 \* (lat2 – lat1)
+
+and y = 69.1 \* (lon2 – lon1) \* cos(lat1/57.3)
+
+Reference [http://www.meridianworlddata.com/distance-calculation/](http://www.meridianworlddata.com/distance-calculation/)
+
+### Findings from the evaluation
+
+#### Time
+
+The null hypothesis for the time evaluation was
+
+_&quot;The application does not provide a user with information quicker than the current manual process&quot;_
+
+For the time element, we compared the time taken by users of the application to the time from users using the manual approach. We then used an independent t test to test for statistical significance.
+
+**Job Search**
+
+The results are as below for the job search component of the time evaluation.
+
+|   | **Manual** | **Application** |
+| --- | --- | --- |
+| Mean | 7.3 | 3.55 |
+| SD | 3.335 | 1.257 |
+| N | 10 | 10 |
+
+The p-value was 0.0037 which indicated that the data is statistically significant (based on using the typical p value of 0.05).
 
 
 
+**Accommodation Search**
 
+|   | **Manual** | **Application** |
+| --- | --- | --- |
+| Mean | 10.5 | 4.1 |
+| SD | 3.41 | 1.2 |
+| N | 10 | 10 |
+
+For the accommodation search, the p value was \&lt; 0.0001 which implies the result is very statistically significant.
+
+Based on the above results, we can state that the JobMap application performs faster than the manual process but is especially effective with accommodation searches.
+
+#### Accuracy
+
+For accuracy, the question we were answering is
+
+_&quot;Is the information provided by the application accurate&quot;_
+
+
+
+|   | **Google** | **jobMap** | **Accuracy** |
+| --- | --- | --- | --- |
+| 1 | 0.774967416156 | 1.18653496959222 | 34.69% |
+| 2 | 3.135252384317 | 4.55469416060227 | 31.16% |
+| 3 | 0.697792638915 | 0.828895127276951 | 15.82% |
+| 4 | 2.070919512025 | 2.71500324231942 | 23.72% |
+| 5 | 4.01841194059 | 4.06539054423115 | 1.16% |
+| 6 | 5.080627231493 | 5.43296674131574 | 6.49% |
+| 7 | 0.343381335958 | 0.345401172082105 | 0.58% |
+| 8 | 0.598617219924 | 0.59895978166758 | 0.06% |
+| 9 | 3.353612349283 | 3.40000579857824 | 1.36% |
+| 10 | 2.497661982861 | 3.41350773667796 | 26.83% |
+
+What emerged from this evaluation was that we had a wide variation in accuracy results. On further investigation it appears the difference is due to the approaches to calculation. We work off a radius whereas Google calculates based on actual travel routes. For future work, we would consider using the Google distance API as it provides a more realistic indication of travel distance.
+
+#### User Feedback
+
+Of the ten evaluators of the application, 6 provided responses to the survey. Overall, we received mixed feedback from the application users. The feedback was that users were happy with the need being addressed and the features being provided but that the application could be made more intuitive to use and more visually appealing.
+
+A couple of examples are shown below.
 
 
 
@@ -564,7 +697,8 @@ Our project vision was to build an application that aggregated information on jo
 2. Does the information provided by the application accurate
 3. Is the application easier to use than the current process?
 
-Overall, we believe our application has met the objectives set out at the beginning of the project. We have been able to build an application that meets our user scenarios and measured as a success based on our success measures.
+Overall, we believe our application has met the core objectives set out at the beginning of the project. We have been able to build an application that meets our user scenarios and measured as a success based on our success measures.
+There are still some immediate improvements such as using the Google Distance API and using improving the visual appearance of the application that would take us beyond meeting the objective to exceeding the objective.
 
 In the future, we envisage the following additional features to extend the capability of the solution:
 
