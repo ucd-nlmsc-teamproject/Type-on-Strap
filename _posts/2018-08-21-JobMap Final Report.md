@@ -735,30 +735,28 @@ To view a demonstration of the JobMap application, please use the link below. Th
 
 ## References
 
-1. 1)C. Hirsch, J. Hosking, and J. Grundy. Interactive Visualization Tools for Exploring the Semantic Graph of Large Knowledge Spaces. In S. Handschuh, T. Heath, and V. Thai, editors, _Workshop on Visual Interfaces to the Social and the Semantic Web (VISSW2009)_, volume 443 of _CEUR-WS_, 2009.
+1. C. Hirsch, J. Hosking, and J. Grundy. Interactive Visualization Tools for Exploring the Semantic Graph of Large Knowledge Spaces. In S. Handschuh, T. Heath, and V. Thai, editors, _Workshop on Visual Interfaces to the Social and the Semantic Web (VISSW2009)_, volume 443 of _CEUR-WS_, 2009.
 
-1. 2)Indecon International Economic Consultants (for Department of Foreign Affairs and Trade) (2018). Indecon Economic Report on Addressing Challenges Faced by Returning Irish Emigrants. Dublin: Department of Foreign Affairs and Trade.
+1. Indecon International Economic Consultants (for Department of Foreign Affairs and Trade) (2018). Indecon Economic Report on Addressing Challenges Faced by Returning Irish Emigrants. Dublin: Department of Foreign Affairs and Trade.
 
-1. 3)Manduca, R (2014). Employment in America 2014. Where are the Jobs?. Retrieved from  http://www.robertmanduca.com/projects/jobs.html.
+1. Manduca, R (2014). Employment in America 2014. Where are the Jobs?. Retrieved from  http://www.robertmanduca.com/projects/jobs.html.
 
-1. 4)Browse our Locations. Jobs.ie – Jobs in Ireland – Irish Jobs. Retrieved 17th June, 2018 from  [http://www.jobs.ie](http://www.jobs.ie)
+1. Browse our Locations. Jobs.ie – Jobs in Ireland – Irish Jobs. Retrieved 17th June, 2018 from  [http://www.jobs.ie](http://www.jobs.ie)
 
-1. 5)Evaluation Experiments, Dr. Brian Mac Namee, University College Dublin
+1. Evaluation Experiments, Dr. Brian Mac Namee, University College Dublin
 
-1. 6)Retrieved from [http://www.technologystudent.com/designpro/system1.htm](http://www.technologystudent.com/designpro/system1.htm)
+1. Retrieved from [http://www.technologystudent.com/designpro/system1.htm](http://www.technologystudent.com/designpro/system1.htm)
 
-1. 7)Retrieved from [https://news.netcraft.com/archives/2017/02/27/february-2017-web-server-survey.html](https://news.netcraft.com/archives/2017/02/27/february-2017-web-server-survey.html)
+1. Retrieved from [https://news.netcraft.com/archives/2017/02/27/february-2017-web-server-survey.html](https://news.netcraft.com/archives/2017/02/27/february-2017-web-server-survey.html)
 
+1. Retrieved from [https://www.siliconrepublic.com/companies/accommodation-crisis-dublin-san-francisco](https://www.siliconrepublic.com/companies/accommodation-crisis-dublin-san-francisco)
 
+1. Retrieved from [https://www.dublinlive.ie/news/dublin-news/dublins-housing-crisis-could-putting-13705263](https://www.dublinlive.ie/news/dublin-news/dublins-housing-crisis-could-putting-13705263)
 
-1. 8)Retrieved from [https://www.siliconrepublic.com/companies/accommodation-crisis-dublin-san-francisco](https://www.siliconrepublic.com/companies/accommodation-crisis-dublin-san-francisco)
+1. Retrieved from [https://materializecss.com/](https://materializecss.com/)
 
-1. 9)Retrieved from [https://www.dublinlive.ie/news/dublin-news/dublins-housing-crisis-could-putting-13705263](https://www.dublinlive.ie/news/dublin-news/dublins-housing-crisis-could-putting-13705263)
+1. Retrieved from [https://d3js.org/](https://d3js.org/)
 
-1. 10)Retrieved from [https://materializecss.com/](https://materializecss.com/)
+1. Retrieved from [https://developers.google.com/maps/documentation/javascript](https://developers.google.com/maps/documentation/javascript/tutorial)
 
-1. 11)Retrieved from [https://d3js.org/](https://d3js.org/)
-
-1. 12)Retrieved from [https://developers.google.com/maps/documentation/javascript](https://developers.google.com/maps/documentation/javascript/tutorial)
-
-1. 13)Distance Calculation, How to calculate the distance between two points on the Earth. Retrieved from [http://www.meridianworlddata.com/distance-calculation](http://www.meridianworlddata.com/distance-calculation)
+1. Distance Calculation, How to calculate the distance between two points on the Earth. Retrieved from [http://www.meridianworlddata.com/distance-calculation](http://www.meridianworlddata.com/distance-calculation)
